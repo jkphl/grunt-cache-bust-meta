@@ -1,0 +1,52 @@
+{
+  "name": "grunt-cache-bust-meta",
+  "description": "Hash based cache busting for static assets with support for a meta hash covering all matched assets",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jkphl/grunt-cache-bust-meta",
+  "author": {
+    "name": "Joschi Kuphal",
+    "email": "joschi@kuphal.net",
+    "url": "https://jkphl.is"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkphl/grunt-cache-bust-meta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkphl/grunt-cache-bust-meta/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jkphl/grunt-cache-bust-meta/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt-text-replace": "~0.4.0",
+    "glob": "~5.0.14",
+    "fs-extra": "~0.24.0",
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunt",
+    "cache",
+    "buster",
+    "busting",
+    "hash",
+    "cookie"
+  ]
+}
